@@ -1,20 +1,24 @@
 {
-"name" : "Test Application",
-"description": "Application for Test",
-"type" : "certified",
-"launch_path": "/index.html#select-mix",
+  "name": "Test Application",
+  "description": "Application for Test",
+  "type": "certified",
+  "launch_path": "/index.html#select-mix",
   "developer": {
     "name": "Tien Manh",
-    "url": "https://github.com/mozilla-b2g/gaia"
+    "url": "nomovok.vn"
   },
   "permissions": {
-    "storage":{},
-    "device-storage:music":{ "access": "readwrite" },
-    "settings":{ "access": "readonly" },
-    "deprecated-hwvideo":{},
-    "audio-channel-content":{},
-    "systemXHR":{},
-    "bluetooth":{}
+    "storage": {},
+    "device-storage:music": {
+      "access": "readwrite"
+    },
+    "settings": {
+      "access": "readonly"
+    },
+    "deprecated-hwvideo": {},
+    "audio-channel-content": {},
+    "systemXHR": {},
+    "bluetooth": {}
   },
   "locales": {
     "ar": {
@@ -37,7 +41,7 @@
   "default_locale": "en-US",
   "icons": {
     "60": "/src/icon/icon.png",
-    "120":"/src/icon/icon.png",
+    "120": "/src/icon/icon.png",
     "320": "/src/icon/icon.png"
   },
   "orientation": "default"

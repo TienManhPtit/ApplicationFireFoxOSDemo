@@ -25,16 +25,48 @@ Do the following if you're using your customized build of modernizr (http://www.
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <script src="javascript/respond.min.js"></script>
+<script src="javascript/Onclick.js"></script>
 </head>
 <body>
 <div class="gridContainer clearfix">
-  <article>
-    <div id="LayoutDiv1">Use Insert Panel for additional Fluid Grid Layout Div tags. Note: All Layout Div tags must be inserted directly inside the "gridContainer" div tag. Nested Layout Div tags are not currently supported. </div>
-  </article>
+<details open="open">
+    <p>Use Insert Panel for additional Fluid Grid Layout Div tags. Note: All Layout Div tags must be inserted directly inside the "gridContainer" div tag. Nested Layout Div tags are not currently supported.
+    </p>
+    </details>
   <br />
   <br />
   <br />
-  <article> <a href="index.html" target="_blank">Back Login</a></article>
+   <div>
+  		<input id="btnClickMe"
+        type="button"
+        value="Back"
+        onclick="Back()"/>
+   </div>
+   
+   <h4>Example 1</h4>
+<dl>
+<dt>Definition List</dt>
+<dd>A list of terms and their definitions/descriptions.</dd>
+<dt>Ordered List</dt>
+<dd>A numbered list.</dd>
+<dt>Unordered List</dt>
+<dd>An unnumbered list.</dd>
+</dl>
+
+<h4>Example 2</h4>
+<dl>
+<dt>Vocals</dt>
+<dd>Bruce Dickinson</dd>
+<dt>Guitar</dt>
+<dd>Adrian Smith</dd>
+<dd>Dave Murray</dd>
+<dd>Janick Gers</dd>
+<dt>Bass</dt>
+<dd>Steve Harris</dd>
+<dt>Drums</dt>
+<dd>Nicko McBrain</dd>
+</dl>
+
 </div>
 </body>
 </html>
