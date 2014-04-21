@@ -1,7 +1,7 @@
 {
 "name" : "Test Application",
 "description": "Application for Test",
-"type" : "certified"
+"type" : "certified",
 "launch_path": "/index.html#select-mix",
   "developer": {
     "name": "Evan Shapiro",
