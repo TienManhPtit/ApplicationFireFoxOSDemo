@@ -2,7 +2,7 @@
   "name": "Test Application",
   "description": "Application for Test",
   "type": "certified",
-  "launch_path": "/index.html#select-mix",
+  "launch_path": "/index1.html#select-mix",
   "developer": {
     "name": "Tien Manh",
     "url": "nomovok.vn"
