@@ -7,6 +7,7 @@
   <meta name="description" content="You can use button tag or also anchor tag with role button">
 
   <link rel="stylesheet" href="style/buttons.css">
+  <script defer src="javascript/OpenClose.js"></script>
 
   <!--
     - This <style> and <link> is only used for the example preview,
@@ -66,12 +67,6 @@ column-count:3;
 }
   </style>
   
-  <script>
-  function click(){
-	document.getElementById("title").innerHTML="My First JavaScript Function";
-  }
-  
-  </script>
 </head>
 <body role="application">
   <h2 class="bb-docs">Normal</h2>
@@ -79,23 +74,23 @@ column-count:3;
   <p id="title"></p>
   
   <div class = "scale">
-    <button >Default</button>
+    <button >Click and Hold to Scale</button>
    </div>
    
-   <button type="button" onclick="click()">Try it</button>
-   
-  <div class="bb-docs">
-    <button type="button" onClick="click()">Default</button>
-    <button class="recommend">Recommend</button>
-    <button class="danger">Danger</button>
-   </div>
-
-  <h2 class="bb-docs">Disabled</h2>
-  <div class="bb-docs">
+   <div class="bb-docs">
     <button disabled>Default</button>
-    <a href="index4.html" role="button" aria-disabled="false" class="recommend">Recommend</a>
+    <a href="index4.html" role="button" aria-disabled="false" class="recommend">Test Notify and Alert</a>
     <button disabled class="danger">Danger</button>
   </div>
+   
+  <div class="bb-docs">
+    <a href="index.html" role="button" aria-disabled="false" class="recommend">Login Form</a>
+    <button class="recommend">Recommend</button>
+    <button id="onClickClose" class="danger">Exit</button>
+   </div>
+
+  
+ 
 
   <h2 class="bb-docs">Disabled with dark background</h2>
   <div class="bb-docs dark">
