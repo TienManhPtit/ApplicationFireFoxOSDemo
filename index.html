@@ -9,26 +9,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Untitled Document</title>
-<!--
-<link href="style/boilerplate.css" rel="stylesheet" type="text/css">
-<link href="style/Layout2.css" rel="stylesheet" type="text/css">
---!>
-
-<!-- 
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
--->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <script src="javascript/respond.min.js"></script>
 <script src="javascript/Onclick.js"></script>
+<link rel="stylesheet" href="style/buttons.css">
 </head>
 <body style="background-color:#40E0D0">
 <div >
@@ -41,7 +24,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   	name="user_name" 
   	value="" 
   	maxlength="100"
-  	style="width:120px;"
+  	style="width:140px;"
     placeholder="Type your Username" />
 <br />
   Password : 
@@ -49,21 +32,14 @@ Do the following if you're using your customized build of modernizr (http://www.
   	name="pass_word" 
   	value="" 
   	maxlength="100"
-  	style="width:120px;"
+  	style="width:140px;"
     placeholder="Type your Password" />
-<br />
+<br /><br />
+
   
   <div>
-  		<input id="btnClickMe"
-        type="button"
-        value="Login"
-        onclick="Login()"
-        />
-        
-       <input id="btnClickMe"
-        type="button"
-        value="Register"
-        onclick="WriteText()" />
+  		<a style="width:70px ; height:40px; text-align:center"  href="index2.html" role="button" aria-disabled="false" class="recommend">Login</a>
+        <a style="width:70px ; height:40px; text-align:center" href="index1.html" role="button" aria-disabled="false" class="recommend">Back</a>  
   </div> 
   
   <div style="font:0.8em/1em Arial, Helvetica, Sans-Serif;">
@@ -93,6 +69,13 @@ Do the following if you're using your customized build of modernizr (http://www.
   </label>
  </datalist>
 </div> 
+
+<div>
+<input type="time"  placeholder="Time"/>
+<br/>
+<input type="date"  placeholder="Date"/>
+
+</div>
 </div>
 </body>
 </html>

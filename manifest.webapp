@@ -2,11 +2,13 @@
   "name": "Test Application",
   "description": "Application for Test",
   "type": "certified",
-  "launch_path": "/index.html#select-mix",
+  "launch_path": "/index1.html#select-mix",
   "developer": {
     "name": "Tien Manh",
     "url": "nomovok.vn"
   },
+  "messages":[{"notification" : "/index1.html"}
+  ],
   "permissions": {
     "storage": {},
     "device-storage:music": {
@@ -15,6 +17,7 @@
     "settings": {
       "access": "readonly"
     },
+	"desktop-notification":{},
     "deprecated-hwvideo": {},
     "audio-channel-content": {},
     "systemXHR": {},
