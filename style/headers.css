@@ -159,7 +159,8 @@ section[role="region"] > header:first-child .icon {
 }
 
 section[role="region"] > header:first-child .icon.icon-add {
-  background-image: url(headers/images/icons/add.png);
+  background-image: url(../images/icons/ic_summary_triggers.png) ;
+  background-repeat:no-repeat
 }
 
 section[role="region"] > header:first-child .icon.icon-compose {
@@ -183,7 +184,8 @@ section[role="region"] > header:first-child .icon.icon-back {
 }
 
 section[role="region"] > header:first-child .icon.icon-menu {
-  background-image: url(headers/images/icons/menu.png);
+  background-image: url(../images/icons/ic_back.png);
+  background-repeat:no-repeat
 }
 
 section[role="region"] > header:first-child .icon.icon-user {

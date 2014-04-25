@@ -18,7 +18,7 @@ divv {
 }
 input
 {
-	background-image:url(../src/icon/icon.png)	
+	background-image:url(../src/icon/icon.png)
 }
 
 section[role="region"].skin-dark > header:first-child > a:not([aria-disabled="true"]):active:after
