@@ -1,10 +1,15 @@
 // JavaScript Document
 
+
+
 var clickHandler  = {
 	'onClickClose' : function(){
-	window.parent.close();	
-	}
-	
+	window.parent.close();
+	},
+	'onShowAlert':function(){
+		var value = document.getElementById("searchActionBar").value;
+       alert("Search result : "+value);	
+}
 };
 
 

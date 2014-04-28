@@ -180,11 +180,12 @@ section[role="region"] > header:first-child .icon.icon-close {
 }
 
 section[role="region"] > header:first-child .icon.icon-back {
-  background-image: url(headers/images/icons/back.png);
+  background-image: url(../images/icons/reply@2x.png);
+  background-repeat:no-repeat
 }
 
 section[role="region"] > header:first-child .icon.icon-menu {
-  background-image: url(../images/icons/ic_back.png);
+url(../images/icons/ic_bother_me_later.png);
   background-repeat:no-repeat
 }
 
@@ -202,6 +203,15 @@ section[role="region"] > header:first-child .icon.icon-reply-all {
 
 section[role="region"] > header:first-child .icon.icon-options {
   background-image: url(headers/images/icons/options.png);
+}
+
+section[role="region"] > header:first-child .icon.icon-search {
+  background-image: url(../images/icons/ic_summary_symptoms.png);
+  background-repeat:no-repeat;
+}
+section[role="region"] > header:first-child .icon.icon-user {
+  background-image: url(../images/icons/user@2x.png);
+  background-repeat:no-repeat;
 }
 
 /* Navigation links (back, cancel, etc) */

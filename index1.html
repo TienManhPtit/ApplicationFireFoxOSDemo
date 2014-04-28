@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Buttons</title>
   <meta name="description" content="You can use button tag or also anchor tag with role button">
 
   <link rel="stylesheet" href="style/buttons.css">
-  <link rel="stylesheet" href="style/headers.css"
+  <link rel="stylesheet" href="style/headers.css">
   <script defer src="javascript/OpenClose.js"></script>
 
-  <!--
-    - This <style> and <link> is only used for the example preview,
-    - it isn't needed for the real use case.
-    -->
   <style>
     html, body {
       margin: 0;
@@ -73,16 +68,17 @@ column-count:3;
 
 <section role="region">
 <header >
-	<a href="index2.html"><span class="icon icon-add">menu</span></a>
+	<button id="onClickClose" ><span class="icon icon-menu">menu</span></button>
   	<menu type="toolbar">
-  		<a href="#"><span class="icon icon-add">add</span></a>
+  		<button id="onShowAlert"><span class="icon icon-search">add</span></button>
 	</menu>
     <form action="#">
-    <input type="text" placeholder="search">
+    <input id="searchActionBar"  type="text" placeholder="search">
     </form>
     
 </header>
 </section>
+<hr/>
 
 
  
@@ -101,6 +97,14 @@ column-count:3;
     <button class="recommend">Recommend</button>
     <button id="onClickClose" class="danger">Exit</button>
    </div>
+   
+   
+   <form>
+   <p>
+   <input type="text" placeholder="Search...." required value="Some Text Here">
+   
+   </p>
+   </form>
 
   
  
